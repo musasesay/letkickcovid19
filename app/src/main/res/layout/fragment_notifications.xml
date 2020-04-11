@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/AppBarOverlay">
+
+<!--                <androidx.appcompat.widget.Toolbar-->
+<!--                    android:id="@+id/toolbar"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="?attr/actionBarSize"-->
+<!--                    android:background="?attr/colorPrimary"-->
+<!--                    app:popupTheme="@style/PopupOverlay" />-->
+
+    </com.google.android.material.appbar.AppBarLayout>
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+
+    >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:background="@color/colorAccent"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/avoidcrowd"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="Tile1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/avoidcrowd"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="Tile1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/avoidcrowd"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="Tile1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+
+            android:padding="5dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/avoidcrowd"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="Tile1" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:padding="5dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/avoidcrowd"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="Tile1" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:padding="5dp"
+            android:layout_columnWeight="1"
+            android:src="@drawable/avoidcrowd"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="Tile1" />
+
+    </GridLayout>
+</ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="?android:attr/windowBackground"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

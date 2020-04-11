@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">Let\'s Kick Covid-19 App</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="nav_header_subtitle">musa@mtechlabs.xyz</string>
+  <string name="nav_header_desc">Navigation header</string>
+  <string name="share">Share</string>
+  <string name="rateApp">Rate App</string>
+  <string name="shareMsg">Download it from Google Play Store Free Here \\n https://play.google.com/store/apps/details?id=</string>
+  <string name="moreApps">More Apps</string>
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
+  <string name="logo">logo</string>
+  <string name="title_activity_aboutus">AboutusActivity</string>
+  <string name="title_home">Home</string>
+  <string name="title_dashboard">Dashboard</string>
+  <string name="title_notifications">Notifications</string>
+  <string name="title_activity_main2">Main2Activity</string>
+  <string name="donate_now">Donate Now</string>
+  <string name="become_a_member">Become a Member</string>
+  <string name="about">About</string>
+</resources>

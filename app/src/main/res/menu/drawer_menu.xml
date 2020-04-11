@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_home" />
+
+
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/ic_credit_card"
+            android:title="@string/donate_now" />
+        <item
+            android:id="@+id/nav_becomeamember"
+            android:icon="@drawable/ic_person"
+            android:title="Join Us" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/about" />
+
+
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/ic_rate"
+            android:title="@string/rateApp" />
+
+        <item
+            android:id="@+id/nav_more_apps"
+            android:icon="@drawable/ic_more"
+            android:title="@string/moreApps" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/share" />
+    </group>
+
+</menu>
